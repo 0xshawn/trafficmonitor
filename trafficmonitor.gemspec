@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'traffic/monitor/version'
+require 'trafficmonitor/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "traffic-monitor"
-  spec.version       = Traffic::Monitor::VERSION
+  spec.name          = "trafficmonitor"
+  spec.version       = Trafficmonitor::VERSION
   spec.authors       = ["Shown Tien"]
   spec.email         = ["hightian@gmail.com"]
   spec.summary       = %q{iftop ouput parse}
