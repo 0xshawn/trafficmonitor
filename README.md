@@ -1,6 +1,6 @@
 # Traffic Monitor
 
-TODO: Write a gem description
+gem help you analysis traffic per ip with port
 
 ## Installation
 
@@ -20,7 +20,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+    require 'trafficmonitor'
+    puts Trafficmonitor::VERSION
+    puts Trafficmonitor::Iftop.connections 'eth0'
+```
 
 ## Contributing
 
