@@ -1,5 +1,5 @@
 # Traffic Monitor
-
+version 0.0.3
 gem help you analysis traffic per ip with port
 
 ## Installation
