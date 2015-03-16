@@ -26,8 +26,8 @@ module Trafficmonitor
       total_send_rate_2s = result[-8].split(' ')[3]
       total_receive_rate_2s = result[-7].split(' ')[3]
 
-      conns['total_send_rate'] = total_send_rate_2s
-      conns['total_receive_rate'] = total_receive_rate_2s
+      conns['total_send_rate'] = remove_speed_unit(total_send_rate_2s)
+      conns['total_receive_rate'] = remove_speed_unit(total_receive_rate_2s)
 
       return conns
     end
