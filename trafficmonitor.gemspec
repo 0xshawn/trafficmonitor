@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["hightian@gmail.com"]
   spec.summary       = %q{iftop ouput parse}
   spec.description   = %q{iftop ouput parse, and output a hash.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/wenxer/trafficmonitor"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")

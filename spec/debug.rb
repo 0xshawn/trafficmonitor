@@ -10,4 +10,7 @@ end
 
 me = Test.new
 
-puts me.connections 'en0', 3
+result = me.connections 'en0', 3
+result['connection'].each do |i|
+  puts i['local_ip'] + "\t\t\t" + i['download_speed'].to_s
+end
